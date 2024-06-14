@@ -1,0 +1,82 @@
+/*Para título: 
+
+class="destaque-titulo"
+
+Para titulos que exibam um tamanho menor
+
+class="destaque-titulo-materia"
+
+*/
+
+/*ESTILIZAÇÃO DE TEXTO GENÉRICA------------------------------------------------------------------------------------------------*/
+.destaque{
+    font-size: 3vh;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.destaque-titulo
+{
+    font-size: 5vh;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.destaque-estilo
+{
+    padding: 8px;
+    border-radius: 8px;
+    background-color: rgb(214, 174, 252);
+}
+
+.destaque-texto
+{
+    padding: 1px;
+    border-radius: 9px;
+    font-weight: bold;
+}
+
+/*ESTILIZAÇÃO DOS CARDS--------------------------------------------------------------------------------------------------------------*/
+
+.card-title-text
+{
+    margin: 10px;
+    font-size: 40px;
+    transition: 1s;
+}
+
+.card-text
+{
+    font-size: 20px;
+    margin: 20px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+/*ESTILIZAÇÃO DA MATÉRIA DO SITE--------------------------------------------------------------------------------------------------------*/
+
+.destaque-titulo-materia
+{
+    font-size: 4vh;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.destaque-sub-titulo-materia
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2vh;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/*ETILIZAÇÃO DAS CARTILHAS DE ENTREGA, PAGAMENTO E DESCONTO --------------------------------*/
+.destaque-carilhas
+{
+    font-weight: bold;
+    font-size: 2vh;
+}
+
+
+.quem-somos-texto
+{
+    font-weight: 600;
+    font-size: 16px;
+}

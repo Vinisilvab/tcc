@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+body
+{
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    background-color:rgb(247, 243, 243);
+    font-family:  'Ubuntu', sans-serif;
+    line-height: 2rem;
+}
+.pagina-inicial
+{
+    /*max-width: 1600px;*/
+    width: 100%;
+}
+.conteudo-institucional
+{
+    width: 100%;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.valores
+{
+    display: flex;
+    justify-content: center;
+}
+
+.valores1:not(:first-child), .valores2, .valores3, .valores4
+{
+    margin: 30px;
+}
+
+.valores1
+{
+    margin: 30px 30px 30px 50px;
+}
+
+/* Cartões ---------------------------------------------------------------------------------*/
+
+.cartões{
+    text-align: center;
+}
+
+.card-pic
+{   
+    /*trocar imagem por uma que tenha maior altura em relação a largura e aumentar a altura maxima*/
+    max-height: 300px;
+    width: 100%;
+    transition: 1s;
+}
+
+.card
+{
+    max-height: 500px;
+    margin: 5px 50px;
+    box-shadow: 3px 5px 10px rgb(185, 185, 185);
+    overflow: hidden;
+}
+
+.card:hover
+{
+    cursor: pointer;
+}
+
+
+.container
+{
+    display: flex;
+    justify-content: center;
+}
+
+.card:hover .intro{
+    height: 200px;
+    bottom: -501;
+    background-color: rgb(157, 109, 202);
+    opacity: 70%;
+}
+
+.card:hover .card-text
+{
+    opacity: 1;
+    visibility: visible;
+    color: black;
+}
+
+.card:hover .card-pic{
+    transform: scale(1.1);
+
+}
+
+/*Missão, Visão e valores--------------------------------*/
+.empresa
+{
+    text-align: center;
+}
+
+.titulo-empresa
+{
+    background-color: rgb(214, 174, 252);
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 800;
+}
+
+.missao
+{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 450px 450px ;
+    gap: 50px;
+    padding: 50px 10px;
+    box-sizing: border-box;
+}
+
+.conteudo-missao
+{
+    
+}
+
+.container-background
+{
+    background-color: white;
+}
+
+.missao{
+    box-shadow: 10px 10px 10px rgb(237, 236, 236);
+}
+
+.missao-titulos
+{
+    font-weight: bolder;
+    font-size: large;
+}
+
+.secoes-missao
+{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   border: 2px solid purple;
+   border-radius: 20px;
+}
+
+.missao-img
+{
+    width: 150px;
+}
+
+.destaque-sub-titulo-materia
+{
+    padding-top: 30px;
+}

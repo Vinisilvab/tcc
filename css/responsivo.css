@@ -1,0 +1,570 @@
+@media screen and (min-width: 360px) and (max-width: 595px){
+    .navegacao
+{
+    background-color: white;
+    width: 100%;
+    top: 0;
+}
+    .valores-caixas{
+        width: 100% !important;
+    }    
+    .valores-container
+    {
+        flex-direction: column;
+    }
+
+    .menu{
+        display: none;
+    }
+    .menus
+    {
+        justify-content: center;
+    }
+    .container
+    {
+        flex-wrap: wrap;
+    }
+
+    .sobre-institucional
+    {
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        justify-content: center;
+        margin-top: 100px;
+        text-align: center;
+    }
+    /*Método de pagamento----------------------------------------------------------------------*/
+    .marca{
+        height: 900px;
+        margin-bottom: 40px;
+    }
+    .texto-principal-marca
+    {
+        text-align: justify;
+    }
+    
+    .metodos-de-pagamento {
+        display: flex;
+        /* justify-content: space-around; */
+        flex-direction: column;
+        gap: 10px !important;
+}
+
+    /*Institucional da Marca------------------------------------------------------------------*/
+    .marca
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .principal-marca
+{
+    text-align: center;
+    height: 750px !important;
+    width: 80% !important;
+    margin-top: 10px;
+    padding: 20px !important;
+    
+}
+
+.principal-primeiro-bloco
+{
+    height: 30%;
+    display: grid;
+    grid-template-columns: 20% 20% !important ;
+    grid-template-rows: 160px;
+    gap: 80px !important;
+    justify-content: center;
+    align-items: start;
+    padding: 20px 0px !important;
+}
+
+p.materia-conteudo
+{
+    text-align: justify;
+    padding: 0 10px;
+}
+
+.texto-fundadora-container
+{
+    padding: 30px;
+}
+
+/*GRID*/
+
+.icon-grid
+{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.icon-grid-img
+{
+    width: 100px;
+    height: 100px;
+    margin-right: 0px !important;
+    box-sizing: border-box;
+}
+
+.infos-grid
+{
+    padding-top: 0px !important;
+}
+/*Missão, visão e valores---------------------------------------------------*/
+.titulo-empresa
+{
+    background-color: rgb(214, 174, 252);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.missao
+{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 80% ;
+    grid-template-rows: 400px;
+    gap: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-direction: column;
+    text-align: center;
+}
+
+.secoes-missao
+{
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   border: 2px solid purple;
+}
+
+.missao-img
+{
+    width: 100px;
+}
+
+
+
+.aside-marca
+{
+    height: 500px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+
+/*footer-------------------------------------------------*/
+.rodape-mobile
+{
+    display: block;
+}
+
+.footer-grid
+{
+    
+    display: grid;
+    grid-template-columns: 100% !important;
+    grid-template-rows:80px;
+    margin: 0;
+}
+
+.conteudo-footer, .conteudo-footer-logo
+{
+    background-color: white;
+    border-top: 1px solid black;
+}
+
+.container-footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    background-color: white;
+}
+
+.img-footer
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer-logo
+{
+    width: 260px;
+}
+
+.conteudo-footer-img
+{
+    width: 30px;
+    height: 30px;
+}
+
+
+}
+
+/*  -----------------------------428px a 820px-------------------------*/
+@media screen and (min-width: 429px) and (max-width: 820px){
+    .principal-marca{
+        margin-top: 40px !important;
+    }
+    
+    .marca{
+        margin-bottom: 120px;
+        margin-top: 150px !important;
+    }
+
+    .missao{
+        grid-template-columns: 48% 48% ;
+        gap: 16px ;
+        padding: 50px 10px;
+        box-sizing: border-box;
+    }
+    .missao
+{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 80% ;
+    grid-template-rows: 600px;
+    gap: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-direction: column;
+    text-align: center;
+}
+.valores-caixas{
+    width: 100% !important;
+}    
+.valores-container
+{
+    flex-direction: column;
+}
+
+}
+
+@media screen and (min-width: 428px) and (max-width: 820px){
+    .sobre-institucional{
+        padding: 30px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .cartoes{
+        display: flex;
+        justify-content: center;
+    }
+    .card{
+        width: 350px;
+    }
+    .valores-caixas{
+        width: 100% !important;
+    }    
+    .valores-container
+    {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (min-width: 820px) and (max-width: 884px){
+    .marca{
+        margin-bottom: 120px !important;
+    }
+    .missao{
+        grid-template-columns: 380px 380px;
+        grid-template-rows: 600px 600px;
+        gap: 12px;
+    }
+    .destaque-sub-titulo-materia, .destaque-titulo-materia
+    {
+        text-align: center;
+    }
+    .marca{
+        margin-bottom: 80px;
+    }
+    .valores-caixas{
+        width: 100% !important;
+    }    
+    .valores-container
+    {
+        flex-direction: column;
+    }
+
+    /*footer-------------------------------------------------*/
+    
+    .footer-grid
+{
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 180px 0px;
+    margin: 0;
+}
+
+.conteudo-footer, .conteudo-footer-logo
+{
+    background-color: white;
+    border-top: 1px solid black;
+}
+
+.container-footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    background-color: white;
+}
+
+.img-footer
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer-logo
+{
+    width: 300px;
+}
+
+.conteudo-footer-img
+{
+    width: 30px;
+    height: 30px;
+}
+}
+@media screen and (min-width: 320px) and (max-width: 359px){
+    .navegacao
+{
+    background-color: white;
+    width: 100%;
+    top: 0;
+}
+    .valores-caixas{
+        width: 100% !important;
+    }    
+    .valores-container
+    {
+        flex-direction: column;
+    }
+
+    .menu{
+        display: none;
+    }
+    .menus
+    {
+        justify-content: center;
+    }
+    .container
+    {
+        flex-wrap: wrap;
+    }
+
+    .sobre-institucional
+    {
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        justify-content: center;
+        margin-top: 100px;
+        text-align: center;
+    }
+    /*Método de pagamento----------------------------------------------------------------------*/
+    .marca{
+        height: 900px;
+        margin-bottom: 40px;
+    }
+    .texto-principal-marca
+    {
+        text-align: justify;
+    }
+    
+    .metodos-de-pagamento {
+        display: flex;
+        /* justify-content: space-around; */
+        flex-direction: column;
+        gap: 10px !important;
+}
+
+    /*Institucional da Marca------------------------------------------------------------------*/
+    .marca
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .principal-marca
+{
+    text-align: center;
+    height: 750px !important;
+    width: 80% !important;
+    margin-top: 10px;
+    padding: 20px !important;
+    
+}
+
+.principal-primeiro-bloco
+{
+    height: 30%;
+    display: grid;
+    grid-template-columns: 20% 20% !important ;
+    grid-template-rows: 160px;
+    gap: 80px !important;
+    justify-content: center;
+    align-items: start;
+    padding: 20px 0px !important;
+}
+
+p.materia-conteudo
+{
+    text-align: justify;
+    padding: 0 10px;
+}
+
+.texto-fundadora-container
+{
+    padding: 30px;
+}
+
+/*GRID*/
+
+.icon-grid
+{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.icon-grid-img
+{
+    width: 100px;
+    height: 100px;
+    margin-right: 0px !important;
+    box-sizing: border-box;
+}
+
+.infos-grid
+{
+    padding-top: 0px !important;
+}
+/*Missão, visão e valores---------------------------------------------------*/
+.titulo-empresa
+{
+    background-color: rgb(214, 174, 252);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.missao
+{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 80% ;
+    grid-template-rows: 400px;
+    gap: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-direction: column;
+    text-align: center;
+}
+
+.secoes-missao
+{
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   border: 2px solid purple;
+}
+
+.missao-img
+{
+    width: 100px;
+}
+
+
+
+.aside-marca
+{
+    height: 500px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+
+/*footer-------------------------------------------------*/
+.rodape-mobile
+{
+    display: block;
+}
+
+.footer-grid
+{
+    
+    display: grid;
+    grid-template-columns: 100% !important;
+    grid-template-rows:80px;
+    margin: 0;
+}
+
+.conteudo-footer, .conteudo-footer-logo
+{
+    background-color: white;
+    border-top: 1px solid black;
+}
+
+.container-footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    background-color: white;
+}
+
+.img-footer
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer-logo
+{
+    width: 260px;
+}
+
+.conteudo-footer-img
+{
+    width: 30px;
+    height: 30px;
+}
+.fundadora-img
+{
+    width: 300px !important;
+    height: 300px !important;
+}
+
+}
+
+   
